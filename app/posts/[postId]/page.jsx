@@ -1,11 +1,11 @@
 // To accept params through the URL:
-/* 
+/*
 1. Change the name of the route (folder) to
 [desiredName]
 2. Inside the component we create in page.jsx, we are going
 to have some props so we can use them, the props
 are going to be the elements that are in the URL
-it is going to return i.e: 
+it is going to return i.e:
 { params: {id: 123}, searchParams: {} }
 
 */
