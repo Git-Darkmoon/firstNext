@@ -1,3 +1,6 @@
+// to import global styles must be imported here
+import "./globals.css"
+
 // All components in NextJS are server side components
 // unless you mark them with "use client"
 
