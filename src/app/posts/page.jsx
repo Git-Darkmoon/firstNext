@@ -1,7 +1,7 @@
 import PostCard from "@/components/PostCard"
 import "./posts.css"
 
-const API_URL = "https://jsonplaceholder.typicode.com/posts"
+const API_URL = process.env.API_URL
 
 async function loadPosts() {
   const res = await fetch(API_URL)
